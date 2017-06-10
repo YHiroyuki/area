@@ -7,11 +7,11 @@ endif
 let colors_name = "atea"
 
 hi Normal         ctermbg=NONE ctermfg=189  guibg=NONE    guifg=#bcbcbc cterm=NONE           gui=NONE
-hi LineNr         ctermbg=NONE ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
+hi LineNr         ctermbg=NONE ctermfg=244  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
 hi FoldColumn     ctermbg=NONE ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
 hi Folded         ctermbg=NONE ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
 hi MatchParen     ctermbg=NONE ctermfg=229  guibg=#1c1c1c guifg=#ffffaf cterm=NONE           gui=NONE
-hi signColumn     ctermbg=NONE ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
+hi SignColumn     ctermbg=NONE ctermfg=242  guibg=#1c1c1c guifg=#6c6c6c cterm=NONE           gui=NONE
 
 set background=dark
 
@@ -49,7 +49,7 @@ hi TabLineSel       ctermbg=101  ctermfg=235  guibg=#87875f guifg=#262626 cterm=
 
 hi Cursor           ctermbg=242  ctermfg=NONE guibg=#6c6c6c guifg=NONE    cterm=NONE           gui=NONE
 hi CursorColumn     ctermbg=236  ctermfg=NONE guibg=#303030 guifg=NONE    cterm=NONE           gui=NONE
-hi CursorLineNr     ctermbg=236  ctermfg=73   guibg=#303030 guifg=#5fafaf cterm=NONE           gui=NONE
+hi CursorLineNr     ctermbg=236  ctermfg=75   guibg=#303030 guifg=#5fafaf cterm=NONE           gui=NONE
 hi CursorLine       ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=underline      gui=underline
 
 hi helpLeadBlank    ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
@@ -64,7 +64,7 @@ hi VisualNOS        ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=
 hi VertSplit        ctermbg=238  ctermfg=238  guibg=#444444 guifg=#444444 cterm=NONE           gui=NONE
 hi WildMenu         ctermbg=153  ctermfg=235  guibg=#8fafd7 guifg=#262626 cterm=NONE           gui=NONE
 
-hi Function         ctermbg=NONE ctermfg=229  guibg=NONE    guifg=#ffffaf cterm=NONE           gui=NONE
+hi Function         ctermbg=NONE ctermfg=69  guibg=NONE    guifg=#ffffaf cterm=BOLD           gui=BOLD
 hi SpecialKey       ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
 hi Title            ctermbg=NONE ctermfg=231  guibg=NONE    guifg=#ffffff cterm=NONE           gui=NONE
 
@@ -76,16 +76,16 @@ hi DiffText         ctermbg=235  ctermfg=208  guibg=#262626 guifg=#ff8700 cterm=
 hi IncSearch        ctermbg=124  ctermfg=235  guibg=#af5f5f guifg=#262626 cterm=NONE           gui=NONE
 hi Search           ctermbg=229  ctermfg=235  guibg=#ffffaf guifg=#262626 cterm=NONE           gui=NONE
 
-hi Directory        ctermbg=NONE ctermfg=73   guibg=NONE    guifg=#5fafaf cterm=NONE           gui=NONE
+hi Directory        ctermbg=NONE ctermfg=75   guibg=NONE    guifg=#5fafaf cterm=NONE           gui=NONE
 
 if has("gui_running")
 hi SpellBad         ctermbg=NONE ctermfg=124  guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#af5f5f
-hi SpellCap         ctermbg=NONE ctermfg=73   guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#5fafaf
+hi SpellCap         ctermbg=NONE ctermfg=75   guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#5fafaf
 hi SpellLocal       ctermbg=NONE ctermfg=65   guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#5f875f
 hi SpellRare        ctermbg=NONE ctermfg=208  guibg=NONE    guifg=NONE    cterm=undercurl      gui=undercurl guisp=#ff8700
 else
 hi SpellBad         ctermbg=NONE ctermfg=124  guibg=NONE    guifg=#af5f5f cterm=undercurl      gui=undercurl guisp=NONE
-hi SpellCap         ctermbg=NONE ctermfg=73   guibg=NONE    guifg=#5fafaf cterm=undercurl      gui=undercurl guisp=NONE
+hi SpellCap         ctermbg=NONE ctermfg=75   guibg=NONE    guifg=#5fafaf cterm=undercurl      gui=undercurl guisp=NONE
 hi SpellLocal       ctermbg=NONE ctermfg=65   guibg=NONE    guifg=#5f875f cterm=undercurl      gui=undercurl guisp=NONE
 hi SpellRare        ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=undercurl      gui=undercurl guisp=NONE
 endif

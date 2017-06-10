@@ -6,7 +6,7 @@ endif
 
 let colors_name = "atea"
 
-hi String           ctermbg=NONE ctermfg=76  guibg=NONE    guifg=#87af87 cterm=NONE           gui=NONE
+hi ColorColumn      ctermbg=237  ctermfg=NONE guibg=#1c1c1c guifg=NONE    cterm=NONE           gui=NONE
 
 hi link Boolean                  Constant
 hi link Character                Constant
